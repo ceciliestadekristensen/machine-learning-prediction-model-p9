@@ -26,7 +26,9 @@ The system consists of multiple steps:
 2. Label encoding of categorical variables  
 3. Feature transformation  
 4. Model training using XGBoost  
-5. Evaluation and result interpretation  
+5. Evaluation and result interpretation
+
+Data → Encoding → Features → XGBoost → Results
 
 ## My Contribution
 I contributed to several key parts of the system:
