@@ -38,9 +38,13 @@ The system follows a structured pipeline:
 5. Model training using XGBoost
 6. Prediction and recommendation
 
+The final step uses sequence-based logic to recommend the next most relevant input.
+
 ## Model Approach
 
 The system uses a sequence-based prediction approach to recommend the next relevant input based on previous selections.
+
+This acts as a sequence-based suggestion engine for next-step prediction, enabling more intelligent and context-aware recommendations.
 
 ## Development Process
 
@@ -59,21 +63,13 @@ I contributed to several key parts of the system:
 ## Pipeline & System Overview
 
 ### Machine Learning Pipeline
-Raw Data 
-   ↓
-Preprocessing 
-   ↓
-Encoding 
-   ↓
-XGBoost Model 
-   ↓
-Prediction / Recommendation
+![pipeline](images/pipeline.png)
 
 ### Development Process
 ![Process](images/process.png)
 
 ### User Stories
-![User Stories](images/user_stories.png)
+<img src="images/user_stories.png" width="400">
 
 ## Results
 
